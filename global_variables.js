@@ -7,7 +7,7 @@ export const colorArr = [redCube, blueCube, greenCube, yellowCube];
 export let colorGeneratorArr = [];
 
 
-let exportResources = {
+const exportResources = {
     colorArr,
     colorGeneratorArr,
 }

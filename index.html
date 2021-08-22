@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<script type="module" src="game_logic.js" defer></script>
+		<title>Pattern Matching Game</title>
+	</head>
+	<body>
+		<div class="lost-game-modal modal-off">
+			<p id="modal-paragraph">You lost, try again!</p>
+			<button id="modal-close-button">Try again</button>
+		</div>
+		<div class="level-div">
+		<span class="level-span">Level 1</span>
+		<button id="reset-game-button">Start New Game</button>
+		</div>
+		<div class="score-container">
+			<h2 id="score">Score:</h2>
+			<span id="score-win">0</span><span id="score-lose">0</span>
+		</div>
+		<div class="cube-container">
+			<div id="red" class="cube"></div>
+			<div id="blue" class="cube"></div>
+			<div id="green" class="cube"></div>
+			<div id="yellow" class="cube"></div>
+		</div>
+		<button id="start-button">Start</button>
+	</body>
+</html>
